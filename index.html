@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c756677d91.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="main">
+
+            <div class="intro">
+                <h1>Love❤️Calculator</h1>
+                <p>"Remember, love can't be quantified. It's about the joy, support, and connection you bring to each other's lives."
+                </p>
+            </div>
+            <div class="contentCal">
+                <div>
+                  <!-- Your name Input field -->
+                  <label for="yourname">Your Name</label><br />
+                  <input
+                    type="text"
+                    id="yourName"
+                    placeholder="Enter Your Name"
+                    spellcheck="false"
+                    maxlength="30"
+                    required
+                  />
+                </div>
+                <div>
+                  <!-- His/Her name Input field -->
+                  <label for="theirname">Boo/Bae</label><br />
+                  <input
+                    type="text"
+                    id="crushName"
+                    placeholder="Enter His/Her Name"
+                    spellcheck="false"
+                    maxlength="30"
+                    required
+                  />
+                </div>
+                
+              </div>
+              <button type="submit" onclick="check()">❤ CALCULATE ❤</button>
+        </div></div>
+        <div class="container">
+        <div class="loveResult">
+            <div class="result">
+                <h2>Love Score</h2>
+                <h1 id="score"></h1>
+                <h4 id="loveResult"></h4>
+              </div>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
